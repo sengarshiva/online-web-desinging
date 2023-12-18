@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background:white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    
+   
+}
+.menu a{
+    text-decoration: none;
+    color: #ff2b85;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 0 10px;
+
+}
+.banner{
+    background: url(https://www.foodpanda.com/wp-content/uploads/2023/02/about-foodpanda.jpeg);
+    width: 100%;
+    height: 500px;
+    /* background-attachment: fixed; */
+
+}
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    padding-top: 130px;
+
+}
+.news{
+    background: linear-gradient(to right,yellowgreen,green,black);
+    width: 100%;
+    height: 50px;
+    padding: 0 100px;
+
+}
+.news marquee{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.about{ 
+    padding: 100px 200px;
+    text-align: center;
+
+}
+.about h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 3px yellowgreen;
+}
+.about p{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: cursive;
+    line-height: 25px;
+    margin-bottom: 15px;
+
+}
+.about button{
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(60deg,yellowgreen,black);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.about button:hover{
+    background: linear-gradient(65deg,rgb(83, 83, 109), rgb(201, 86, 86));
+
+}
+
+.Press{
+    background: url(../image/foodpanda-Singapore-Delivery-1.jpeg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 200px;
+    text-align: center;  
+    background-attachment: fixed;
+}
+.Press h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 15px;
+    text-shadow: 4px 4px 4px yellowgreen;
+}
+.Press p{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: cursive;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.Press button{
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(60deg,yellowgreen,black);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Press button:hover{
+    background: linear-gradient(70deg,blue,rgb(8, 202, 8));
+}
+.Team{
+    background: url(../image/Imaginary-Burger_Double-Cheese-Burger-5_Imaginary-Burger.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 200px;
+    text-align: center;  
+    background-attachment: fixed;
+    
+}
+.Team h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 15px;
+    text-shadow: 4px 4px 4px yellowgreen;
+}
+.Team p{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: cursive;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.Team button{
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(60deg,yellowgreen,black);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.Team button:hover{
+    background: linear-gradient(65deg,rgb(83, 83, 109), rgb(201, 86, 86));
+}
+.contact{
+    text-align: center;
+    background: linear-gradient(pink,white);
+    width: 100%;
+    height: 400px;
+    font-size: 20px;
+}
+.contact button{
+    width: 200px;
+    height: 40px;
+    background: yellowgreen;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: cadetblue;
+}
+footer{
+    background: gray;
+    color: white;
+    text-align: center;
+}
+.input{
+    font-size: 20px;
+    box-shadow: 1px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: lightgray;
+    box-shadow: 1px 3px 3px slategray;
+    padding-left: 20px;
+    border-radius: 40px;
+    color: black;
+}
+::placeholder{
+    font-family: cursive;
+    color: black;
+}
+footer{
+    padding: 40px 120px;
+    background-color: rgb(244,244,253);
+
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-1{
+    display: flex;
+}
+.first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.second div{
+    width: 200px;
+}
+.second h4{
+    font-weight: lighter;
+    color: rgb(22,22,22);
+    /* white-space: nowrap; */
+ 
+ }
+ .second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+
+
+ }
+ .second img{
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+
+ }
+.box-4{
+    display: flex;
+    flex-direction: column;
+
+}
+.box-4 i{
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+.third{
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.7rem;
+
+}
